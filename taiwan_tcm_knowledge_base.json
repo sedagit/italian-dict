@@ -1,284 +1,530 @@
 {
   "metadata": {
     "title": "台灣學士後中醫學系完整情報（2023–2026）",
-    "description": "系統性蒐集三所學校招生資訊、考試資料、課程與出路分析",
+    "version": "2.0",
     "generated_at": "2026-05-21",
-    "knowledge_cutoff": "2026-05",
-    "schools_covered": ["中國醫藥大學", "長庚大學", "義守大學"],
-    "note": "部分細節（如精確錄取分數）各校未公開，以估算/歷年資料為準，實際以當年度簡章為準"
+    "data_quality": "實測驗證版：結合高點/龍門/三民補習班官方統計數據、PTT/Dcard 考生社群、各校官方公告",
+    "important_correction": "長庚大學後中醫已停辦。現行三校為：中國醫藥大學、義守大學、慈濟大學，合計 195 名額",
+    "sources": [
+      "高點醫護網歷年錄取率統計 https://doctor.get.com.tw/trad-doctor/passing.aspx?f=trad-doctor",
+      "龍門115年後中醫分數分析 https://www.long-men.com.tw",
+      "三民輔考歷年缺額統計 https://www.3people.com.tw",
+      "義守大學官方招生 https://www.isu.edu.tw/admissions/30",
+      "慈濟大學官方招生 https://admissions.tcu.edu.tw",
+      "PTT post-b.test 看板 https://www.ptt.cc/bbs/post-b.test/",
+      "Dcard 學士後板 https://www.dcard.tw/f/post_bachelor",
+      "Vocus 考生上榜心得 https://vocus.cc/article/6498d9f5fd89780001e38481"
+    ]
   },
 
   "program_overview": {
     "name": "學士後中醫學系（後中醫）",
     "english_name": "Post-Baccalaureate Program in Chinese Medicine",
-    "purpose": "提供已持有學士學位者轉讀中醫，修業 5 年後取得中醫學士，並可參加中醫師國考",
-    "total_annual_quota": "約 110 人（三校合計）",
-    "competition_ratio": "報名人數約 2,000–4,000 人競爭 ~110 個名額，整體錄取率約 3–5%",
-    "program_duration": "5 年（含見習 1 年）",
+    "purpose": "提供已持有學士學位者（任何科系）轉讀中醫，修業 5 年後取得中醫學士，可報考中醫師國家考試",
+    "schools_count": 3,
+    "schools": ["中國醫藥大學（CMU）", "義守大學（ISU）", "慈濟大學（TCU）"],
+    "discontinued_schools": ["長庚大學（早年曾設，現已停辦）"],
+    "total_annual_quota": 195,
+    "program_duration_years": 5,
     "degree": "醫學士（中醫學系）",
-    "license_exam": "中醫師國家考試（考選部主辦，每年兩次）"
+    "compared_to_regular_cm": "一般中醫系修業 7 年，後中醫 5 年（少 2 年）"
   },
 
   "schools": {
     "中國醫藥大學": {
       "abbr": "CMU",
-      "location": "台中市北區學士路91號",
-      "founding_year_of_dept": 1967,
-      "dept_website": "https://cm.cmu.edu.tw/",
-      "admission_website": "https://www.cmu.edu.tw/admissions/",
-      "annual_quota": 50,
-      "tuition_per_semester_ntd": "約 55,000–60,000",
-      "total_5yr_cost_estimate_ntd": "約 60–70 萬",
-      "features": [
-        "全台最早設立後中醫，資源與師資最豐富",
-        "附設中國醫藥大學附設醫院（中西醫結合）",
-        "研究資源充足，可進修碩博士",
-        "台中校區生活費相對較低"
-      ],
-      "exam_subjects": {
-        "2023_2024_2025_2026": ["國文", "英文", "生物（含生命科學）", "化學"],
-        "note": "不考物理，生物題比重最高"
+      "location": "台中市北區",
+      "admission_website": "https://adm21.cmu.edu.tw/?q=news_spbcm",
+      "annual_quota": 100,
+      "scoring_system": {
+        "exam_weight": "60%（筆試）",
+        "interview_weight": "40%（面試）",
+        "final_score_scale": "100 分制（加權合成後）",
+        "note": "筆試先行，通過篩選者進入面試"
       },
-      "yearly_data": {
-        "2023": {
-          "roc_year": 112,
-          "quota": 50,
-          "registration_open": "2023-03-01",
-          "registration_close": "2023-03-21",
-          "exam_date": "2023-04-16",
-          "results_date": "2023-05",
-          "registration_fee_ntd": 2000,
-          "min_passing_note": "各科 30 分以上，總分約 180–200+ 方有競爭力"
-        },
-        "2024": {
-          "roc_year": 113,
-          "quota": 50,
-          "registration_open": "2024-03",
-          "exam_date": "2024-04",
-          "registration_fee_ntd": 2000
-        },
-        "2025": {
-          "roc_year": 114,
-          "quota": 50,
-          "registration_open": "2025-03",
-          "exam_date": "2025-04",
-          "registration_fee_ntd": 2000
-        },
-        "2026": {
-          "roc_year": 115,
-          "quota": 50,
-          "note": "詳見當年度簡章"
-        }
-      }
-    },
-
-    "長庚大學": {
-      "abbr": "CGU",
-      "location": "桃園市龜山區文化一路259號",
-      "founding_year_of_dept": 2000,
-      "dept_website": "https://tcm.cgu.edu.tw/",
-      "admission_website": "https://www.cgu.edu.tw/admissions/",
-      "annual_quota": 30,
-      "tuition_per_semester_ntd": "約 60,000–65,000",
-      "total_5yr_cost_estimate_ntd": "約 65–75 萬",
       "features": [
-        "長庚醫院體系，臨床資源豐厚",
-        "位於桃園，交通便利（近台北）",
-        "強調中西醫整合",
-        "學校整體管理嚴謹"
+        "全台後中醫資源最豐富，師資最強",
+        "附設中國醫藥大學附設醫院（全台最大中西醫合作醫院）",
+        "名額最多（100人），但也最多人報考",
+        "面試是決勝關鍵，筆試分數只是門檻",
+        "研究資源完整，可繼續碩博士"
       ],
-      "exam_subjects": {
-        "2023_2024_2025_2026": ["國文", "英文", "生物（含生命科學）", "化學", "物理"],
-        "note": "五科考試，物理需特別準備"
-      },
       "yearly_data": {
-        "2023": {
-          "roc_year": 112,
-          "quota": 30,
-          "registration_open": "2023-03",
-          "exam_date": "2023-04",
-          "registration_fee_ntd": 2000
+        "115 (2026)": {
+          "quota": 100,
+          "applicants": 2351,
+          "acceptance_rate_pct": 4.25,
+          "registration_period": "2026-01-20 至 2026-01-26",
+          "written_exam_date": "2026-04-19",
+          "interview_date": "2026-05-03",
+          "results_dates": ["2026-04-23（筆試成績）", "2026-05-08（面試暨錄取名單）"],
+          "registration_fee_ntd": 3200,
+          "interview_fee_ntd": 2500,
+          "min_admitted_score": 81.66,
+          "min_waitlist_score": 78.40,
+          "score_note": "分數為 60% 筆試 + 40% 面試之加權總分（滿分 100）"
         },
-        "2024": {
-          "roc_year": 113,
-          "quota": 30,
-          "registration_open": "2024-03",
-          "exam_date": "2024-04",
-          "registration_fee_ntd": 2000
+        "114 (2025)": {
+          "quota": 100,
+          "applicants": 2148,
+          "acceptance_rate_pct": 4.66,
+          "registration_period": "約 2025-01 月",
+          "written_exam_date": "約 2025-04",
+          "registration_fee_ntd": 3200
         },
-        "2025": {
-          "roc_year": 114,
-          "quota": 30,
-          "registration_open": "2025-03",
-          "exam_date": "2025-04",
-          "registration_fee_ntd": 2000
+        "113 (2024)": {
+          "quota": 100,
+          "applicants": 2052,
+          "acceptance_rate_pct": 4.8
         },
-        "2026": {
-          "roc_year": 115,
-          "quota": 30,
-          "note": "詳見當年度簡章"
+        "112 (2023)": {
+          "quota": 100,
+          "applicants": 2058,
+          "acceptance_rate_pct": 4.8
+        },
+        "111 (2022)": {
+          "quota": 100,
+          "applicants": 1932,
+          "acceptance_rate_pct": 5.1
+        },
+        "110 (2021)": {
+          "quota": 100,
+          "applicants": 2162,
+          "acceptance_rate_pct": 4.6
+        },
+        "109 (2020)": {
+          "quota": 100,
+          "applicants": 1962,
+          "acceptance_rate_pct": 5.09
+        },
+        "108 (2019)": {
+          "quota": 100,
+          "applicants": 1956,
+          "acceptance_rate_pct": 5.11
+        },
+        "107 (2018)": {
+          "quota": 100,
+          "applicants": 1967,
+          "acceptance_rate_pct": 5.08,
+          "sample_admitted_score": {
+            "total": 294,
+            "chinese": 76,
+            "chemistry": 80,
+            "english": 64,
+            "biology": 76,
+            "note": "PTT 心得文分享，僅供參考"
+          }
         }
+      },
+      "competitive_analysis": {
+        "筆試門檻估算": "四科加總須進前 10–15%，面試表現決定最終錄取",
+        "面試準備要點": ["了解中醫為何吸引你", "醫學倫理基本概念", "自我介紹流暢清晰", "儀態穩重"],
+        "考生社群評價": "首選學校，但面試增加變數；筆試很強但面試搞砸也有落榜案例"
       }
     },
 
     "義守大學": {
       "abbr": "ISU",
-      "location": "高雄市大樹區學城路一段1號",
-      "founding_year_of_dept": 2012,
-      "dept_website": "https://tcm.isu.edu.tw/",
-      "admission_website": "https://www.isu.edu.tw/admissions/",
-      "annual_quota": 30,
-      "tuition_per_semester_ntd": "約 50,000–55,000",
-      "total_5yr_cost_estimate_ntd": "約 55–65 萬",
-      "features": [
-        "三校中最晚設立，但學費相對較低",
-        "高雄校區，南部生源較多",
-        "義大醫院提供見習機會",
-        "校園環境新穎"
-      ],
-      "exam_subjects": {
-        "2023_2024_2025_2026": ["國文", "英文", "生物（含生命科學）", "化學"],
-        "note": "四科，與中國醫藥大學相似"
+      "location": "高雄市大樹區",
+      "admission_website": "https://www.isu.edu.tw/admissions/30",
+      "annual_quota": 50,
+      "scoring_system": {
+        "exam_only": true,
+        "total_score_max": 400,
+        "scoring_per_question": "正確 +2，答錯 -0.5，未作答 0",
+        "subjects": 4,
+        "questions_per_subject": 50
       },
+      "features": [
+        "純筆試制，無面試，分數決定一切",
+        "義大醫院體系，南台灣中西醫整合優勢",
+        "高雄校區，南部學生首選",
+        "學費相對偏低"
+      ],
       "yearly_data": {
-        "2023": {
-          "roc_year": 112,
-          "quota": 30,
-          "registration_open": "2023-03",
-          "exam_date": "2023-04",
-          "registration_fee_ntd": 1800
+        "115 (2026)": {
+          "quota": 50,
+          "applicants": 2041,
+          "acceptance_rate_pct": 2.44,
+          "registration_period": "2025-12-23 至 2026-01-02",
+          "written_exam_date": "2026-03-22",
+          "results_date": "2026-04-29",
+          "registration_fee_ntd": 3200,
+          "min_admitted_score": 351.20,
+          "min_waitlist_score": 326.00,
+          "score_note": "總分 400 分制（四科各 100）"
         },
-        "2024": {
-          "roc_year": 113,
-          "quota": 30,
-          "registration_open": "2024-03",
-          "exam_date": "2024-04",
-          "registration_fee_ntd": 1800
+        "114 (2025)": {
+          "quota": 50,
+          "applicants_approx": 1800,
+          "registration_period": "2025-01-07 至 2025-01-17",
+          "written_exam_date": "2025-04-13",
+          "results_date": "2025-05-16",
+          "registration_fee_ntd": 3200
         },
-        "2025": {
-          "roc_year": 114,
-          "quota": 30,
-          "registration_open": "2025-03",
-          "exam_date": "2025-04",
-          "registration_fee_ntd": 1800
+        "113 (2024)": {
+          "quota": 50,
+          "note": "Dcard 討論備取遞補人數有限"
         },
-        "2026": {
-          "roc_year": 115,
-          "quota": 30,
-          "note": "詳見當年度簡章"
+        "112 (2023)": {
+          "quota": 50,
+          "applicants": 1744,
+          "acceptance_rate_pct": 2.8
         }
+      },
+      "real_score_example": {
+        "source": "Vocus 2024 上榜心得（Jenny Wu）",
+        "Chinese": 92.4,
+        "Chemistry": 93.0,
+        "English": 84.0,
+        "Biology": 99.6,
+        "Total": 369.0,
+        "Result": "正取"
+      }
+    },
+
+    "慈濟大學": {
+      "abbr": "TCU",
+      "location": "花蓮市",
+      "admission_website": "https://admissions.tcu.edu.tw/?page_id=62",
+      "annual_quota": 45,
+      "scoring_system": {
+        "exam_only": true,
+        "total_score_max": 400,
+        "scoring_per_question": "正確 +2，答錯 -0.5，未作答 0",
+        "subjects": 4,
+        "questions_per_subject": 50
+      },
+      "features": [
+        "慈濟醫療體系（花蓮/台北/台中/大林慈濟醫院）",
+        "三校競爭度相對最低，錄取門檻略低",
+        "花蓮環境單純、學習專注",
+        "具佛教人文關懷精神",
+        "相較義守，花蓮交通較不便"
+      ],
+      "yearly_data": {
+        "115 (2026)": {
+          "quota": 45,
+          "applicants": 1745,
+          "acceptance_rate_pct": 2.58,
+          "registration_period": "2026-02-02 至 2026-02-06",
+          "written_exam_date": "2026-04-10",
+          "interview_date": "無",
+          "results_date": "2026-05-11",
+          "registration_fee_ntd": 2800,
+          "min_admitted_score": 317.70,
+          "min_waitlist_score": 291.00,
+          "score_note": "總分 400 分制（四科各 100）"
+        },
+        "112 (2023)": {
+          "quota": 45,
+          "applicants": 1563,
+          "acceptance_rate_pct": 2.8
+        }
+      },
+      "real_score_example": {
+        "source": "Vocus 2024 上榜心得（Jenny Wu）",
+        "Chinese": 69.0,
+        "Chemistry": 94.0,
+        "English": 77.67,
+        "Biology": 90.0,
+        "Total": 330.67,
+        "Result": "備取第 2"
+      },
+      "contact": {
+        "phone": "03-8565301 分機 11138/11105/11104",
+        "enrollment_phone": "03-8565301 分機 11102/11103"
       }
     }
   },
 
-  "admission_details": {
-    "eligibility": {
-      "basic": "持有國內外大學以上學歷（任何科系）",
-      "gpa_requirement": "各校不設硬性 GPA 門檻，但成績單需附上",
-      "age_limit": "無年齡限制",
-      "foreign_degree": "海外學歷需先經教育部認證"
+  "exam_details": {
+    "subjects": {
+      "list": ["國文", "化學（普通化學＋有機化學）", "英文", "生物學"],
+      "format": "單選題，每科 50 題",
+      "scoring": "答對 +2 分，答錯 -0.5 分，未作答 0 分",
+      "total_max_score": 400,
+      "duration": "通常各科 50–60 分鐘",
+      "note": "各科倒扣制，策略上不確定時可選擇不作答"
     },
-    "joint_admission": {
-      "organizer": "大學甄選入學委員會（CAPE）",
-      "website": "https://www.cape.edu.tw/",
-      "description": "三校採聯合招生模式，同一考試日期，可同時報考多校",
-      "fee_per_school_ntd": "約 1,800–2,000（各校分開繳費）",
-      "can_apply_all_three": true
-    },
-    "exam_format": {
-      "type": "筆試（選擇題為主）",
-      "duration_minutes": 180,
-      "scoring": "各科 100 分制",
-      "passing_threshold": "各科需達 30–40 分（各校規定略異）",
-      "competitive_score_estimate": "三校各科加總 200–230 分以上方具競爭力（滿分依科目數而異）"
-    },
-    "typical_timeline": {
-      "january_february": "各校公布簡章草案，CAPE 開放查詢",
-      "march": "網路報名開放（通常為期 3 週）",
-      "april": "聯合筆試",
-      "may": "成績公告",
-      "may_june": "分發錄取名單",
-      "july_august": "正式入學"
+    "subject_analysis": {
+      "biology": {
+        "weight_rating": "★★★★★ 最關鍵",
+        "scope": [
+          "細胞生物學（細胞結構、有絲分裂、減數分裂）",
+          "遺傳學（孟德爾遺傳、連鎖、突變）",
+          "分子生物學（DNA 複製、轉錄、轉譯、基因調控）",
+          "演化（天擇、物種形成、親緣關係）",
+          "生態學（族群動態、群落、生態系能量流）",
+          "人體生理（各器官系統運作）",
+          "植物生物學"
+        ],
+        "recommended_level": "大學 Campbell Biology 全本程度",
+        "top_resource": "Campbell Biology + 自編章節考古題（上榜者平均做完 3,000+ 題）",
+        "teacher_recommendation": "張劍鴻老師（多位上榜者推薦）",
+        "trend": "近年偏向分子生物學、細胞訊息傳遞"
+      },
+      "chemistry": {
+        "weight_rating": "★★★★☆ 重要",
+        "scope": [
+          "普通化學（原子結構、化學鍵結、熱力學、溶液化學）",
+          "有機化學（官能基、取代/加成/消去反應機制）",
+          "酸鹼平衡、電化學",
+          "生物化學概論（氨基酸、酵素動力學）"
+        ],
+        "recommended_level": "大學普通化學 + 有機化學（前半段）",
+        "teacher_recommendation": "梁傑老師（多位上榜者推薦，考古題 90+ 分）",
+        "trend": "有機化學比重逐年增加"
+      },
+      "english": {
+        "weight_rating": "★★★☆☆ 中等",
+        "scope": [
+          "閱讀測驗（含醫學/科學英文文章）",
+          "字彙（多為醫學/科學詞彙）",
+          "文法（中等難度）"
+        ],
+        "teacher_recommendation": "張文忠老師教材",
+        "trend": "閱讀測驗比重增加，重視推論能力"
+      },
+      "chinese": {
+        "weight_rating": "★★★☆☆ 相對易得分",
+        "scope": [
+          "文言文閱讀與翻譯",
+          "現代文閱讀測驗",
+          "字義辨析、成語",
+          "作文（部分學校考）",
+          "國學常識"
+        ],
+        "note": "作文策略：義守採五段式結構，中規中矩即可得中等分"
+      }
     }
   },
 
-  "exam_subject_analysis": {
-    "biology": {
-      "weight": "最重要",
-      "scope": [
-        "細胞生物學（細胞結構、有絲分裂/減數分裂）",
-        "遺傳學（孟德爾遺傳、分子遺傳）",
-        "生物化學（DNA複製、轉錄、轉譯）",
-        "人體生理學（各器官系統）",
-        "生態學（族群、群落、生態系）",
-        "演化（達爾文演化論、物種形成）"
-      ],
-      "recommended_textbook": "Campbell Biology（坎貝爾生物學）或台灣高中/大學生物"
+  "admission_timeline": {
+    "overview": "三校考試日期不同，可同時報考三校（需分別繳費）",
+    "115_academic_year_2026": {
+      "CMU_中國醫藥大學": {
+        "registration": "2026-01-20 至 2026-01-26",
+        "written_exam": "2026-04-19",
+        "interview": "2026-05-03",
+        "results": "2026-04-23（筆試）/ 2026-05-08（面試暨錄取）",
+        "fees_ntd": "筆試 3,200 + 面試 2,500 = 5,700"
+      },
+      "ISU_義守大學": {
+        "registration": "2025-12-23 至 2026-01-02",
+        "written_exam": "2026-03-22",
+        "results": "2026-04-29",
+        "fees_ntd": 3200
+      },
+      "TCU_慈濟大學": {
+        "registration": "2026-02-02 至 2026-02-06",
+        "written_exam": "2026-04-10",
+        "results": "2026-05-11",
+        "fees_ntd": 2800,
+        "next_year_exam": "116學年度考試訂於 2027-04-10（六）"
+      }
     },
-    "chemistry": {
-      "weight": "重要",
-      "scope": [
-        "普通化學（原子結構、化學鍵結、莫耳計算）",
-        "有機化學基礎（官能基辨識、反應機制）",
-        "酸鹼平衡",
-        "熱化學、電化學"
-      ],
-      "recommended_textbook": "大學普通化學（Zumdahl 或 Chang）"
+    "114_academic_year_2025": {
+      "ISU_義守大學": {
+        "registration": "2025-01-07 至 2025-01-17",
+        "written_exam": "2025-04-13",
+        "results": "2025-05-16",
+        "enrollment": "2025-05-20 至 2025-05-26"
+      }
     },
-    "chinese": {
-      "weight": "中等",
-      "scope": [
-        "文言文閱讀理解",
-        "現代文閱讀",
-        "字義辨析",
-        "成語、修辭"
-      ]
-    },
-    "english": {
-      "weight": "中等",
-      "scope": [
-        "閱讀測驗（含醫學相關文章）",
-        "字彙（多為醫學/科學詞彙）",
-        "文法"
-      ]
-    },
-    "physics": {
-      "weight": "中等（僅長庚大學考）",
-      "scope": [
-        "力學",
-        "電磁學",
-        "光學",
-        "熱力學"
-      ]
+    "annual_pattern": {
+      "october_november": "各校公布下一學年度簡章",
+      "december_january": "義守/慈濟報名期",
+      "january_february": "中國醫藥大學報名期",
+      "march_april": "三校筆試（各校日期不同）",
+      "april_may": "成績公告、面試（中國醫）",
+      "may_june": "放榜、分發、備取遞補",
+      "september": "正式入學"
     }
   },
 
-  "curriculum": {
-    "year_1_2_focus": "基礎科學（解剖學、生理學、生物化學、中醫基礎理論）",
-    "year_3_4_focus": "臨床基礎（中醫診斷學、方劑學、中藥學、針灸學）",
-    "year_5_focus": "臨床見習（於附設醫院進行中醫門診、住院見習）",
-    "key_subjects": [
-      "中醫基礎理論",
-      "中醫診斷學（望聞問切）",
-      "中藥學（約 300–400 種藥物）",
-      "方劑學（200+ 首方劑）",
-      "針灸學（穴位、治療）",
-      "中醫內科學",
-      "中醫婦科學",
-      "中醫兒科學",
-      "解剖學（中西醫共修）",
-      "生理學（中西醫共修）"
+  "score_statistics": {
+    "CMU_historical_applicants": {
+      "source": "高點醫護網官方統計",
+      "data": {
+        "115 (2026)": { "applicants": 2351, "acceptance_rate_pct": 4.25 },
+        "114 (2025)": { "applicants": 2148, "acceptance_rate_pct": 4.66 },
+        "113 (2024)": { "applicants": 2052, "acceptance_rate_pct": 4.80 },
+        "112 (2023)": { "applicants": 2058, "acceptance_rate_pct": 4.80 },
+        "111 (2022)": { "applicants": 1932, "acceptance_rate_pct": 5.10 },
+        "110 (2021)": { "applicants": 2162, "acceptance_rate_pct": 4.60 },
+        "109 (2020)": { "applicants": 1962, "acceptance_rate_pct": 5.09 },
+        "108 (2019)": { "applicants": 1956, "acceptance_rate_pct": 5.11 },
+        "107 (2018)": { "applicants": 1967, "acceptance_rate_pct": 5.08 },
+        "106 (2017)": { "applicants": 2042, "acceptance_rate_pct": 4.90 },
+        "105 (2016)": { "applicants": 2022, "acceptance_rate_pct": 4.95 },
+        "104 (2015)": { "applicants": 2169, "acceptance_rate_pct": 4.61 }
+      },
+      "trend": "報名人數 2020–2022 約 1,900–2,100，2023 起回升至 2,000–2,400"
+    },
+    "115_cutoff_scores": {
+      "source": "龍門115年後中醫分數分析",
+      "CMU": {
+        "min_admitted": 81.66,
+        "min_waitlist": 78.40,
+        "scale": "100 分制（60% 筆試 + 40% 面試加權）"
+      },
+      "ISU": {
+        "min_admitted": 351.20,
+        "min_waitlist": 326.00,
+        "scale": "400 分制"
+      },
+      "TCU": {
+        "min_admitted": 317.70,
+        "min_waitlist": 291.00,
+        "scale": "400 分制"
+      }
+    },
+    "real_exam_scores_example": {
+      "source": "Vocus 2024 上榜心得（Jenny Wu，112學年度）",
+      "ISU_正取": {
+        "Chinese_國文": 92.4,
+        "Chemistry_化學": 93.0,
+        "English_英文": 84.0,
+        "Biology_生物": 99.6,
+        "Total_總分": 369.0
+      },
+      "TCU_備2": {
+        "Chinese_國文": 69.0,
+        "Chemistry_化學": 94.0,
+        "English_英文": 77.67,
+        "Biology_生物": 90.0,
+        "Total_總分": 330.67
+      }
+    },
+    "competitive_score_benchmark": {
+      "ISU_正取估算": "約 340–370 分（以 400 為滿分）",
+      "TCU_正取估算": "約 305–330 分（以 400 為滿分）",
+      "per_subject_guidance": {
+        "biology": "目標 90+ 分（高分鑑別科）",
+        "chemistry": "目標 80–90 分",
+        "english": "目標 70–85 分",
+        "chinese": "目標 70–80 分（倒扣小心）"
+      }
+    }
+  },
+
+  "prep_resources": {
+    "cram_schools": {
+      "高點醫護網（Get高點）": {
+        "url": "https://doctor.get.com.tw/",
+        "type": "面授 + 雲端課程",
+        "features": [
+          "市佔率最高，歷年上榜案例最多",
+          "IRT 大會考模擬系統",
+          "提供模擬面試訓練（針對中國醫）",
+          "考上退還未用學費 + 20,000 元獎學金"
+        ],
+        "full_program_fee_ntd": 86000,
+        "note": "數字為優惠價，詳見官網"
+      },
+      "三民輔考": {
+        "url": "https://www.3people.com.tw/",
+        "type": "面授 + 線上",
+        "features": ["免費歷屆考題下載", "師資陣容完整", "提供缺額統計資訊"]
+      },
+      "樂學網（347）": {
+        "url": "https://347.com.tw/",
+        "type": "線上課程為主",
+        "features": ["適合在職考生（時間彈性）", "費用較低"]
+      },
+      "三元及第文教機構": {
+        "url": "https://www.3dollars.com.tw/",
+        "type": "面授",
+        "features": ["傳統補習班模式", "各校考情整合資訊"]
+      },
+      "龍門（TKB龍門）": {
+        "url": "https://www.long-men.com.tw/",
+        "type": "線上課程 + 考情分析",
+        "features": ["詳細歷年錄取率與分數分析", "每年公布分數預測"]
+      }
+    },
+    "study_materials": {
+      "biology": "Campbell Biology（坎貝爾生物學，建議台灣翻譯版全本）",
+      "chemistry": "大學普通化學（Zumdahl 或 Chang）＋ 有機化學前半",
+      "exam_banks": "PTT post-b.test 板「三校後中醫歷屆考古題懶人包」",
+      "ptt_board": "https://www.ptt.cc/bbs/post-b.test/",
+      "dcard_board": "https://www.dcard.tw/f/post_bachelor"
+    },
+    "preparation_timeline": {
+      "full_time_avg_months": "12–18 個月",
+      "part_time_avg_months": "24–36 個月",
+      "fastest_known_case": "2.5 個月備考正取義守（Jenny Wu，已有生物基礎）",
+      "recommended_schedule": {
+        "T-12months": "確認目標學校，開始生物（Campbell）系統學習",
+        "T-9months": "化學（普化＋有機），同步繼續生物",
+        "T-6months": "英文、國文加入，開始做歷屆考古題",
+        "T-3months": "全科密集衝刺，模擬考抓倒扣節奏",
+        "T-1month": "鎖定各科弱點，整理錯題，維持手感"
+      }
+    }
+  },
+
+  "applicant_profiles": {
+    "common_backgrounds": [
+      {
+        "background": "藥學系",
+        "advantage": "化學與生物底子佳，優勢最明顯",
+        "weakness": "無明顯弱點"
+      },
+      {
+        "background": "生命科學／生物系",
+        "advantage": "生物超強",
+        "weakness": "有機化學需補強"
+      },
+      {
+        "background": "護理系",
+        "advantage": "生理解剖基礎佳",
+        "weakness": "化學（尤其有機）相對弱"
+      },
+      {
+        "background": "醫技／放射／復健等醫療相關",
+        "advantage": "醫學基礎不差",
+        "weakness": "因科系而異"
+      },
+      {
+        "background": "化工／化學系",
+        "advantage": "化學強",
+        "weakness": "生物需從頭補"
+      },
+      {
+        "background": "獸醫系",
+        "advantage": "生物與化學兼具",
+        "weakness": "無明顯弱點"
+      },
+      {
+        "background": "呼吸治療系",
+        "advantage": "臨床知識豐富",
+        "weakness": "化學有機需加強"
+      },
+      {
+        "background": "文史法商工等非理工科",
+        "advantage": "國文、英文相對強",
+        "weakness": "生物化學需從零開始，耗時最長（通常需 2 年+）",
+        "note": "仍有成功案例，PTT 有文組生 2 年上榜心得"
+      }
+    ],
+    "ptt_dcard_insights": [
+      "文組生備考重點：化學有機最難克服，需投入最多時間",
+      "上班族邊工作邊考：通常需 2–3 年，需高度自律",
+      "一年半快速上榜策略：全職準備 + 高點雲端課程 + 大量考古題",
+      "各科系起跑點不同，但榜單上各科系都有",
+      "Dcard 討論：113 年義守/慈濟備取遞補名額有限，排到備取也不一定能入學"
     ]
   },
 
   "national_exam": {
-    "name": "中醫師國家考試（中醫師專技高考）",
+    "name": "中醫師國家考試（專技高考）",
     "organizer": "考選部（MOEX）",
     "url": "https://wwwc.moex.gov.tw/",
-    "frequency": "每年兩次（第一次約 1 月、第二次約 7 月）",
-    "exam_stages": {
-      "stage_1": {
-        "name": "第一試（基礎醫學）",
+    "frequency": "每年兩次（約 1 月、7 月）",
+    "stages": {
+      "stage_1_基礎醫學": {
         "subjects": [
           "解剖學與組織學",
           "生理學",
@@ -287,11 +533,9 @@
           "微生物學與免疫學",
           "藥理學"
         ],
-        "format": "選擇題",
         "passing_score": 60
       },
-      "stage_2": {
-        "name": "第二試（臨床中醫學）",
+      "stage_2_臨床中醫": {
         "subjects": [
           "中醫基礎理論",
           "中醫內科學",
@@ -300,92 +544,102 @@
           "方劑學",
           "中藥學"
         ],
-        "format": "選擇題",
         "passing_score": 60
       }
     },
-    "pass_rate_by_year": {
-      "2023": "約 65–70%（歷屆畢業生首次應考）",
-      "2024": "約 65–70%",
-      "note": "各屆不同，考選部有公告詳細通過率"
-    },
-    "license_validity": "終身有效，每 6 年需繼續教育積分"
+    "pass_rate": "約 65–75%（歷屆畢業生首次應考）",
+    "license": "終身有效，每 6 年需累積繼續教育積分"
   },
 
-  "career_outlook": {
+  "career_and_market": {
     "work_settings": [
-      "自行開業中醫診所（最多）",
-      "加入既有中醫診所",
-      "中西醫合作醫院（如長庚、中醫附院、台北榮總傳統醫學科）",
+      "自行開業中醫診所（最多，約 70–80% 選擇）",
+      "受雇於中醫診所",
+      "中西醫合作醫院（長庚、中醫附院、榮總傳統醫學科等）",
+      "慈濟醫院體系（慈濟畢業生優勢）",
       "學術研究（碩博士進修後）",
-      "中藥產業（研發、品管）"
+      "中藥產業（研發、品管、行銷）",
+      "中醫美容（針灸瘦身、穴位埋線等新興市場）"
     ],
-    "average_starting_salary_ntd_monthly": "約 60,000–100,000（依門診量與地點）",
-    "private_clinic_income": "開業後月入差異大，都會區中等診所月收約 15–30 萬",
-    "demand_trend": "台灣中醫需求穩定，高齡化社會加速，預防醫學及慢性病調理市場成長中",
-    "dual_license_option": "部分醫師同時取得西醫/牙醫執照，具雙執照者市場競爭力更強"
-  },
-
-  "preparation_tips": {
-    "timeline_suggestion": {
-      "12_months_before": "確定目標學校，開始準備生物（優先）、化學",
-      "9_months_before": "開始英文、國文複習，做歷屆試題",
-      "6_months_before": "全科衝刺，補強弱項，做模擬考",
-      "3_months_before": "密集練習，鎖定歷年考古題",
-      "1_month_before": "整理錯題，維持手感"
+    "salary": {
+      "hospital_employed_monthly_ntd": "約 100,000–150,000",
+      "clinic_employed_monthly_ntd": "約 80,000–120,000",
+      "self_owned_clinic_monthly_ntd": "差距大，都會區中等規模約 150,000–300,000",
+      "note": "PTT 討論：薪資透明度低，開業風險高但上限也高"
     },
-    "study_resources": [
-      "CAPE 官網歷年考題（www.cape.edu.tw）",
-      "各校招生簡章（各校招生官網）",
-      "補習班：新北市、台北各有後中醫專業補習班",
-      "坎貝爾生物學（台灣翻譯版）",
-      "大學普通化學教材"
-    ],
-    "key_success_factors": [
-      "生物科須達大學程度（Campbell Biology）",
-      "化學基礎紮實（大學普化）",
-      "英文閱讀理解能力",
-      "持續性、長期備考心理準備（通常需 1–2 年）"
+    "market_trends": [
+      "高齡化社會推動慢性病調理需求成長",
+      "中西醫整合趨勢明顯，具西醫背景的中醫師競爭力更高",
+      "中醫美容、不孕症調理等特定市場快速成長",
+      "都市與偏鄉供需不均，偏鄉嚴重缺乏中醫師"
     ]
   },
 
-  "recent_trends_2023_2026": {
-    "quota_stability": "三校名額（CMU 50、CGU 30、ISU 30）近年維持穩定，共 110 名",
-    "applicant_trend": "報名人數 2020 年後略降（從巔峰約 4,000+ 降至 2,000–3,000），競爭雖略緩仍激烈",
-    "exam_difficulty_trend": "生物題難度提升，偏向大學程度（非高中），化學有機比重增加",
-    "digital_transformation": "各校 2024 起加強線上資源，CAPE 系統介面更新",
-    "post_covid_changes": "考試全程維持實體考試，不採線上模式",
-    "tuition_changes": "學費 2023–2026 微幅調漲（約每學期漲 1,000–2,000 元）"
+  "policy_and_trends_2023_2026": {
+    "quota_stability": "三校名額（CMU 100、ISU 50、TCU 45）近年穩定，未見增減",
+    "applicant_trend": {
+      "description": "CMU 報名人數 2020–2022 約 1,900–2,100，2023 起回升，2026 達 2,351",
+      "ISU_TCU": "義守和慈濟亦有類似回升趨勢"
+    },
+    "exam_difficulty": {
+      "biology": "難度逐年提升，偏向大學程度，分子生物學比重增加",
+      "chemistry": "有機化學佔比增加，不能只靠高中化學",
+      "scoring_strategy": "倒扣制下，確定才作答；衝高分靠生物和化學，國文保底"
+    },
+    "post_western_medicine_competition": {
+      "description": "教育部近年允許清大、中山等國立大學新設後西醫系，部分考生志願分流",
+      "mohw_stance": "衛福部 2025 年表示只能尊重教育部決定",
+      "impact_on_post_tcm": "分流效應有限，後中醫報名人數仍在成長"
+    },
+    "interview_at_CMU": "中國醫藥大學面試制度穩定維持，面試佔 40%",
+    "tuition_increase": "學費每學年微幅調漲，5 年總費用各校約 55–75 萬元",
+    "government_sponsored_spots": {
+      "description": "部分名額設公費（偏鄉服務義務），但後中醫公費制度規模小",
+      "service_obligation_years": "約 3–5 年（偏鄉），具體視各年度政策",
+      "controversy": "服務年限與地點限制為主要爭議點"
+    }
   },
 
   "faq": [
     {
-      "q": "任何科系都可以報考嗎？",
-      "a": "是的，只要持有學士學位即可報考，不限科系。工程、商管背景均有考上案例。"
+      "q": "三校可以同時報考嗎？",
+      "a": "可以，各自繳費（共約 9,200 元），考試日期不同，三校都可考。"
+    },
+    {
+      "q": "長庚大學有後中醫嗎？",
+      "a": "沒有。長庚曾設有後中醫但已停辦，現行三校為中國醫、義守、慈濟。"
+    },
+    {
+      "q": "倒扣制如何應對？",
+      "a": "確定答對才作答；若猜測正確率低於 20% 則選擇不作答。生物與化學盡量都作答，因底子可以準備到 80% 以上把握。"
+    },
+    {
+      "q": "中國醫藥大學面試怎麼準備？",
+      "a": "面試佔 40%，主要考察為何選中醫、對中醫的認識、基本醫學倫理、自我介紹。建議提前練習口語表達並了解中醫基本理論。"
+    },
+    {
+      "q": "需要多久準備？",
+      "a": "全職備考平均 12–18 個月；有理工基礎者可縮短至 6–12 個月。文史背景者通常需 18–36 個月。"
+    },
+    {
+      "q": "5 年總費用大約多少？",
+      "a": "各校不同：CMU 約 60–70 萬、ISU 約 55–65 萬、TCU 約 50–60 萬（含雜費、住宿另計）。補習費用另加 5–10 萬。"
+    },
+    {
+      "q": "慈濟花蓮生活怎麼樣？",
+      "a": "環境單純、適合專心讀書，但交通不便（台北到花蓮約 2 小時車程），娛樂選擇少。生活費反而相對低。"
     },
     {
       "q": "在職可以邊工作邊讀嗎？",
-      "a": "不行。後中醫學制為全日制 5 年，課業繁重，不允許在職進修。"
+      "a": "入學後不行，後中醫為全日制 5 年。但備考期間可在職，只是所需時間較長（2–3 年）。"
     },
     {
-      "q": "可以同時報考三所學校嗎？",
-      "a": "可以。但需分別報名繳費。各校考試日若相同則需選一，但實際上三校通常協調考試日期錯開或同日不同時段。"
+      "q": "備取遞補機率高嗎？",
+      "a": "依年度不同。113年（2024）Dcard討論義守/慈濟備取遞補人數有限；某些年份正取棄學較多則備取機率高。建議三校都報，機率最大化。"
     },
     {
-      "q": "考上後轉學或插班可能嗎？",
-      "a": "中醫學系不接受轉學生/插班，需從第一年完整就讀。"
-    },
-    {
-      "q": "外籍人士可以報考嗎？",
-      "a": "持台灣永久居留證或歸化國籍者通常可報考，詳見各校規定。"
-    },
-    {
-      "q": "每年考幾次？",
-      "a": "每年一次，通常在每年 4 月考試，5–6 月放榜。"
-    },
-    {
-      "q": "錄取後有獎學金嗎？",
-      "a": "各校有學業優異獎學金、弱勢助學金等，另有衛福部公費生名額（畢業後需至偏鄉服務 3–5 年）。"
+      "q": "畢業後收入如何？",
+      "a": "受雇月薪約 8–15 萬；自行開業差距極大，都會區中等診所月收 15–30 萬。薪資透明度低，開業前 3 年建立口碑是關鍵。"
     }
   ]
 }
