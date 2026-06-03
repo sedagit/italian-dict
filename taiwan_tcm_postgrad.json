@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "title": "台灣學士後中醫招生情報（2023–2026）",
+    "generated_at": "2026-05-21T11:38:04.326838",
+    "data_years": [
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "schools_covered": [
+      "中國醫藥大學",
+      "長庚大學",
+      "義守大學"
+    ],
+    "sources": [
+      "https://cm.cmu.edu.tw/",
+      "https://www.cgu.edu.tw/",
+      "https://www.isu.edu.tw/",
+      "https://www.cape.edu.tw/",
+      "https://wwwc.moex.gov.tw/"
+    ]
+  },
+  "static_knowledge": {
+    "program_overview": {
+      "name": "學士後中醫學系（後中醫）",
+      "description": "針對已取得學士學位之學生，修業年限通常為 5 年（含一年見習），畢業後可參加中醫師國家考試取得執照。",
+      "schools_offering": [
+        {
+          "name": "中國醫藥大學",
+          "dept_code": "CMU-TCM",
+          "location": "台中",
+          "established": "最早設立後中醫",
+          "annual_quota_approx": 50,
+          "website": "https://cm.cmu.edu.tw/"
+        },
+        {
+          "name": "長庚大學",
+          "dept_code": "CGU-TCM",
+          "location": "桃園",
+          "annual_quota_approx": 30,
+          "website": "https://www.cgu.edu.tw/"
+        },
+        {
+          "name": "義守大學",
+          "dept_code": "ISU-TCM",
+          "location": "高雄",
+          "annual_quota_approx": 30,
+          "website": "https://www.isu.edu.tw/"
+        }
+      ],
+      "program_duration_years": 5,
+      "degree_awarded": "學士（中醫學系）",
+      "license_exam": "中醫師國家考試（考選部主辦）"
+    },
+    "admission_process": {
+      "type": "聯合招生 + 各校單獨招生",
+      "main_body": "大學甄選入學委員會 (CAPE)",
+      "stages": [
+        "1. 線上報名（通常每年 3–4 月）",
+        "2. 筆試（自然科學、國文、英文等，各校略有不同）",
+        "3. 成績公告",
+        "4. 分發錄取"
+      ],
+      "required_documents": [
+        "學士學位證書或在學證明",
+        "歷年成績單",
+        "身分證",
+        "報名費"
+      ]
+    },
+    "exam_subjects": {
+      "common": [
+        "國文",
+        "英文",
+        "生物（含生命科學）",
+        "化學",
+        "物理"
+      ],
+      "cmu_specific": [
+        "國文",
+        "英文",
+        "生物",
+        "化學"
+      ],
+      "cgu_specific": [
+        "國文",
+        "英文",
+        "生物",
+        "化學",
+        "物理"
+      ],
+      "isu_specific": [
+        "國文",
+        "英文",
+        "生物",
+        "化學"
+      ],
+      "note": "各校考試科目可能每年微調，以當年度簡章為準"
+    },
+    "yearly_data": {
+      "2023": {
+        "roc_year": 112,
+        "cmu": {
+          "quota": 50,
+          "registration_period": "約 2023/03",
+          "exam_date": "約 2023/04",
+          "tuition_per_semester_approx_ntd": 55000
+        },
+        "cgu": {
+          "quota": 30,
+          "registration_period": "約 2023/03",
+          "exam_date": "約 2023/04",
+          "tuition_per_semester_approx_ntd": 60000
+        },
+        "isu": {
+          "quota": 30,
+          "registration_period": "約 2023/03",
+          "exam_date": "約 2023/04",
+          "tuition_per_semester_approx_ntd": 52000
+        },
+        "total_slots": 110
+      },
+      "2024": {
+        "roc_year": 113,
+        "cmu": {
+          "quota": 50,
+          "registration_period": "約 2024/03",
+          "exam_date": "約 2024/04"
+        },
+        "cgu": {
+          "quota": 30,
+          "registration_period": "約 2024/03",
+          "exam_date": "約 2024/04"
+        },
+        "isu": {
+          "quota": 30,
+          "registration_period": "約 2024/03",
+          "exam_date": "約 2024/04"
+        },
+        "total_slots": 110
+      },
+      "2025": {
+        "roc_year": 114,
+        "cmu": {
+          "quota": 50,
+          "registration_period": "約 2025/03",
+          "exam_date": "約 2025/04"
+        },
+        "cgu": {
+          "quota": 30,
+          "registration_period": "約 2025/03",
+          "exam_date": "約 2025/04"
+        },
+        "isu": {
+          "quota": 30,
+          "registration_period": "約 2025/03",
+          "exam_date": "約 2025/04"
+        },
+        "total_slots": 110
+      }
+    },
+    "national_exam": {
+      "name": "中醫師專技高考",
+      "organizer": "考選部",
+      "frequency": "每年兩次（通常為 1 月、7 月）",
+      "stages": [
+        "第一試：基礎醫學（解剖、生理、生化、病理、微免、藥理）",
+        "第二試：臨床中醫（中醫內科、針灸、方劑、中藥學等）"
+      ],
+      "pass_rate_approx": "約 60–80%（視年度而異）",
+      "url": "https://wwwc.moex.gov.tw/"
+    },
+    "tips_and_trends": [
+      "競爭激烈：報名人數通常數千人爭取約 110 個名額，錄取率約 3–5%",
+      "生物與化學為關鍵科目，需熟悉大學普通生物學程度",
+      "各校分別計分、分發，可同時報考多校",
+      "近年趨勢：生物考題難度略升，題型偏向應用理解",
+      "畢業後出路：中醫診所、中西醫合作醫院、自行開業",
+      "修業年限 5 年，費用總計約 50–70 萬新台幣（各校不同）"
+    ]
+  },
+  "scraped": {
+    "cmu": {
+      "school": "中國醫藥大學",
+      "department": "學士後中醫學系",
+      "location": "台中市",
+      "website": "https://cm.cmu.edu.tw/",
+      "years": {
+        "2026": {
+          "source_url": "https://cm.cmu.edu.tw/admission/114"
+        },
+        "2024": {
+          "source_url": "https://cm.cmu.edu.tw/admission/112"
+        },
+        "2023": {
+          "source_url": "https://cm.cmu.edu.tw/admission/111"
+        }
+      }
+    },
+    "cgu": {
+      "school": "長庚大學",
+      "department": "學士後中醫學系",
+      "location": "桃園市",
+      "website": "https://www.cgu.edu.tw/",
+      "years": {
+        "2026": {
+          "source_url": "https://www.cgu.edu.tw/admission/undergraduate/114"
+        },
+        "2025": {
+          "source_url": "https://www.cgu.edu.tw/admission/undergraduate/113"
+        },
+        "2024": {
+          "source_url": "https://www.cgu.edu.tw/admission/undergraduate/112"
+        },
+        "2023": {
+          "source_url": "https://www.cgu.edu.tw/admission/undergraduate/111"
+        }
+      }
+    },
+    "isu": {
+      "school": "義守大學",
+      "department": "學士後中醫學系",
+      "location": "高雄市",
+      "website": "https://www.isu.edu.tw/",
+      "years": {
+        "2026": {
+          "source_url": "https://www.isu.edu.tw/p/412-1001-9903.php"
+        }
+      }
+    },
+    "cape": {
+      "source": "大學甄選入學委員會 (CAPE)",
+      "url": "https://www.cape.edu.tw/",
+      "description": "學士後醫學暨中醫學系聯合招生",
+      "years": {}
+    }
+  }
+}
